@@ -1,0 +1,181 @@
+:root {
+  --link-color: #275fe0;
+  --background-color: #ffffff;
+  --button-color: #f4c32f;
+  --background-color-service: #efefef;
+  --heading-color: #131313;
+  --service-text-color: #030303;
+}
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  background-color: var(--background-color);
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+  padding-top: 53px;
+}
+
+.logo {
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.header-info {
+  margin-bottom: 220px;
+}
+
+.header-info .title {
+  color: var(--heading-color);
+  font-family: Tahoma;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 1.02px;
+  margin-bottom: 24px;
+}
+
+.title-info {
+  color: #131313;
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 230px;
+  padding-right: 230px;
+}
+
+.title-info .bold {
+  font-family: "Tahoma - Bold";
+  font-weight: 700;
+  letter-spacing: 0.32px;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.btn {
+  width: 246px;
+  height: 66px;
+
+  border-radius: 5px;
+  border: 1px solid #131313;
+  margin-top: 35px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding: 11px 40px;
+  text-decoration: none;
+  color: var(--heading-color);
+}
+
+.btn:hover {
+  background-color: var(--button-color);
+}
+
+.main {
+  font-family: Tahoma;
+}
+
+.our-service {
+  background-color: var(--background-color-service);
+}
+
+.services {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  color: var(--service-text-color);
+  font-family: Tahoma;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.76px;
+}
+
+.service-list {
+  list-style: none;
+  columns: 3;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-list-item {
+  width: 280px;
+  padding: 2px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 14px;
+  margin-left: 14px;
+  margin-bottom: 55px;
+}
+.service-name,
+.privilege-name {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 700;
+}
+
+.service-text {
+  font-size: 15px;
+}
+
+.fb-link {
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.our-service .container {
+  padding-bottom: 72px;
+}
+
+.iphone-bg {
+  background: url(../img/iphone-hand-4.jpg);
+}
+.privilege {
+  list-style: none;
+  columns: 2;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.privilege.name {
+  font-size: 35px;
+}
+
+.privilege-item-1 {
+  background: url(../img/01.svg) 0 0% no-repeat;
+  list-style-type: none;
+  padding-left: 12px;
+}
+
+.privilege-item-2 {
+  background: url(../img/02.svg) 0 0% no-repeat;
+  list-style-type: none;
+  padding-left: 12px;
+}
+
+.privilege-item-3 {
+  background: url(../img/03.svg) 0 0% no-repeat;
+  list-style-type: none;
+  padding-left: 12px;
+}
