@@ -5,6 +5,7 @@
   --background-color-service: #efefef;
   --heading-color: #131313;
   --service-text-color: #030303;
+  --number-color: #868686;
 }
 
 *,
@@ -91,7 +92,7 @@
 }
 
 .main {
-  font-family: Tahoma;
+  font-family: Tahoma, sans-serif;
 }
 
 .our-service {
@@ -126,8 +127,7 @@
   margin-left: 14px;
   margin-bottom: 55px;
 }
-.service-name,
-.privilege-name {
+.service-name {
   font-size: 20px;
   margin: 10px;
   font-weight: 700;
@@ -147,35 +147,52 @@
   padding-bottom: 72px;
 }
 
-.iphone-bg {
-  background: url(../img/iphone-hand-4.jpg);
+.privilege-list {
+  justify-content: space-evenly;
+  display: flex;
 }
+
 .privilege {
   list-style: none;
-  columns: 2;
+}
+
+.priv-number {
+  color: var(--number-color);
+  padding-right: 80px;
+  font-size: 42px;
+}
+
+.privilege-item .name {
+  font-size: 20px;
+  font-weight: 700;
+  padding-right: 40px;
+}
+.iphone {
+  width: 370px;
+  height: 450px;
+}
+
+.footer {
+  background-color: var(--background-color-service);
+
+}
+
+.footer .container{
   justify-content: space-between;
   display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 50px;
-}
-.privilege.name {
-  font-size: 35px;
+  padding-bottom: 50px;
 }
 
-.privilege-item-1 {
-  background: url(../img/01.svg) 0 0% no-repeat;
-  list-style-type: none;
-  padding-left: 12px;
+.slogan{
+  font-size: 18px;
+  color: var(--number-color);
+  line-height: 26px;
+  padding-left: 200px;
 }
 
-.privilege-item-2 {
-  background: url(../img/02.svg) 0 0% no-repeat;
-  list-style-type: none;
-  padding-left: 12px;
-}
-
-.privilege-item-3 {
-  background: url(../img/03.svg) 0 0% no-repeat;
-  list-style-type: none;
-  padding-left: 12px;
+.rights {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  color: var(--number-color);
+  padding-right: 200px;
 }
