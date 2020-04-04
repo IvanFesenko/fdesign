@@ -44,7 +44,7 @@
 
 .header-info .title {
   color: var(--heading-color);
-  font-family: Tahoma;
+  font-family: Tahoma, sans-serif;
   font-size: 51px;
   font-weight: 700;
   line-height: 32px;
@@ -54,7 +54,7 @@
 
 .title-info {
   color: #131313;
-  font-family: Tahoma;
+  font-family: Tahoma, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -103,7 +103,7 @@
   margin-top: 90px;
   margin-bottom: 90px;
   color: var(--service-text-color);
-  font-family: Tahoma;
+  font-family: Tahoma, sans-serif;
   font-size: 38px;
   font-weight: 700;
   line-height: 26px;
@@ -174,16 +174,15 @@
 
 .footer {
   background-color: var(--background-color-service);
-
 }
 
-.footer .container{
+.footer .container {
   justify-content: space-between;
   display: flex;
   padding-bottom: 50px;
 }
 
-.slogan{
+.slogan {
   font-size: 18px;
   color: var(--number-color);
   line-height: 26px;
