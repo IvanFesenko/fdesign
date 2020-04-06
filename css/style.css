@@ -44,7 +44,7 @@
 
 .header-info .title {
   color: var(--heading-color);
-  font-family: Tahoma, sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-size: 51px;
   font-weight: 700;
   line-height: 32px;
@@ -54,7 +54,7 @@
 
 .title-info {
   color: #131313;
-  font-family: Tahoma, sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -63,7 +63,7 @@
 }
 
 .title-info .bold {
-  font-family: "Tahoma - Bold";
+  font-family: "Tahoma", sans-serif;
   font-weight: 700;
   letter-spacing: 0.32px;
 }
@@ -92,7 +92,7 @@
 }
 
 .main {
-  font-family: Tahoma, sans-serif;
+  font-family: "Tahoma", sans-serif;
 }
 
 .our-service {
@@ -103,7 +103,7 @@
   margin-top: 90px;
   margin-bottom: 90px;
   color: var(--service-text-color);
-  font-family: Tahoma, sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-size: 38px;
   font-weight: 700;
   line-height: 26px;
@@ -177,13 +177,13 @@
   margin: 0px 20px 38px;
 }
 .priv-description .name {
-  font-family: Tahoma, sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-size: 20px;
   font-weight: 700;
 }
 
 .priv-description .text {
-  font-family: Tahoma, sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #585757;
