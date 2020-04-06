@@ -139,8 +139,19 @@
 
 .fb-link {
   font-size: 17px;
+  line-height: 26px;
   font-weight: 700;
   text-decoration: none;
+}
+
+.fb-link::before {
+  content: "";
+  display: inline-block;
+  border: 1px solid #abbeea;
+  position: relative;
+  width: 157px;
+  left: 167px;
+  top: 7px;
 }
 
 .our-service .container {
@@ -152,21 +163,33 @@
   display: flex;
 }
 
-.privilege {
-  list-style: none;
+.row-item {
+  display: flex;
 }
 
 .priv-number {
   color: var(--number-color);
-  padding-right: 80px;
-  font-size: 42px;
+  font-size: 32px;
 }
 
-.privilege-item .name {
+.priv-description {
+  text-align: left;
+  margin: 0px 20px 38px;
+}
+.priv-description .name {
+  font-family: Tahoma, sans-serif;
   font-size: 20px;
   font-weight: 700;
-  padding-right: 40px;
 }
+
+.priv-description .text {
+  font-family: Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #585757;
+  margin-top: 18px;
+}
+
 .iphone {
   width: 370px;
   height: 450px;
