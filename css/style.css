@@ -8,6 +8,11 @@
   --number-color: #868686;
 }
 
+@font-face {
+  font-family: "Tahoma";
+  src: url(../fonts/Tahoma.ttf);
+}
+
 *,
 *:before,
 *:after {
